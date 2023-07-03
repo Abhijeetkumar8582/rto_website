@@ -1,0 +1,220 @@
+body {
+ background-color: white;
+}
+.Precify_Logo {
+  max-width: 40px;
+}
+
+.PrecifyLogo_text {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.nav-link {
+  margin: 0px 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.HomeContainer_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin-bottom: 50px;
+}
+.Div_containerOne{
+  width: 60%;
+}
+.Div_containerTwo{
+  width: 40%;
+}
+.Div_containerOne_text {
+  font-weight: 800;
+  text-align: center;
+}
+
+.Div_containerOne_Innertext {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.service{
+  padding: 50px;
+}
+.service_heading{
+  font-weight: 700;
+  font-size: 40px;
+  color: #3f3939;
+  margin-bottom: 30px
+}
+
+.Service_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Service_container_array_object{
+  width: 60%;
+}
+.Service_container_image{
+  width: 40%;
+}
+.Service_container_innerDiv{
+  margin: 0px 10px; /* Adjusted margin for spacing between elements */
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  transition: all .5s ease 0;
+  transition: all 0.5s ease 0s;
+  box-shadow: 0px 10px 10px 0px #ff7d7d;
+
+}
+.Service_container_innerDiv_heading{
+  color: #ff7d7d;
+  font-weight: 600;
+}
+.Service_container_innerDiv:hover{
+  background-color: rgb(255, 212, 132);
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 10px 0px #7d90ff;
+}
+.whySettleLessText{
+  font-weight: 700;
+  font-size: 40px;
+}
+.whyUsDiv{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+padding: 50px;
+}
+.whyUsArrayDiv{
+  background: #fff;
+  text-align: center;
+  padding: 30px 25px;
+  /* -webkit-box-shadow:0 0px 25px rgba(0, 0, 0, 0.07); */
+  box-shadow:0 0px 25px 0px rgba(255, 171, 171, 0.07);
+  border-radius: 20px;
+  border:5px solid rgba(0, 0, 0, 0.07);
+  margin-bottom: 30px;
+  -webkit-transition: all .5s ease 0;
+  transition: all .5s ease 0;
+  transition: all 0.5s ease 0s;
+  max-width: 27rem;
+  margin: 10px 5px;
+  box-shadow: 0px 10px 10px 0px #5147dd;
+}
+.whyUsArrayDiv:hover{
+  background-color: rgb(255, 212, 132);
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 10px 0px #ff7d7d;
+}
+
+.fa-fa-Div{
+ margin-bottom: 20px;
+}
+.whyUsArrayDiv:hover .hover-fafa {
+  color: #ff7d7d;
+}
+.Service_container_innerDiv:hover .Service_container_innerDiv_heading{
+color: rgb(93, 93, 255);
+}
+.UnleashPower_Div{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.UnleashPower_Div_one{
+  padding: 50px;
+  width: 60%;
+    justify-content: center;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0px 25px 0px rgba(255, 171, 171, 0.07);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    margin-bottom: 30px;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+    margin: 10px 5px;
+    box-shadow: 0px 10px 10px 0px #c3bfff;
+}
+.UnleashPower_text{
+  font-weight: 700;
+  font-size: 40px;
+}
+.UnleashPower_Div_two{
+  width: 40%;
+}
+.UnleashPower_Div_one_text{
+  justify-content: center;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  height: 100%;
+  font-weight: 300;
+}
+@media only screen and (max-width: 750px) {
+  .HomeContainer_div {
+    flex-direction: column;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  .Div_containerOne{
+    width: 100%;
+    order: 1;
+  }
+  .Div_containerOne_text{
+    font-size: 22px;
+  }
+  .Div_containerOne_Innertext{
+    font-size: 13px;
+    text-align: center;
+  }
+  .Div_containerTwo{
+    order: 0;
+  }
+  .service{
+    padding: 10px;
+  }
+  .service_heading{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px 0px 20px;
+  }
+  .Service_container{
+    flex-direction: column;
+  }
+  .Service_container_image{
+    width: 100%;
+  }
+  .Service_container_array_object{
+    width: 100%;
+  }
+  .whySettleLessText{
+    font-size:20px;
+    text-align: center;
+  }
+  .UnleashPower_text{
+    font-size:20px;
+    text-align: center;
+  }
+  .UnleashPower_Div{
+    flex-direction: column;
+  }
+  .UnleashPower_Div_one{
+    width: 100%;
+    order: 1;
+  }
+  .UnleashPower_Div_two{
+    width: 100%;
+    order: 0;
+  }
+  .UnleashPower_Div_one_text{
+    font-size: 12px;
+  }
+}
+
