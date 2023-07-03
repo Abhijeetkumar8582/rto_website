@@ -71,7 +71,7 @@ function Home() {
                     </div>
                     <div className='Service_container_array_object'>
                         {logoArray.map((element, i) => (
-                            <div className='Service_container_innerDiv'>
+                            <div className='Service_container_innerDiv' key={i}>
                                 <h4 className='Service_container_innerDiv_heading'>{element.heading}</h4>
                                 <h6 style={{ fontWeight: '300', textAlign: 'justify' }}>{element.description}</h6>
                             </div>
@@ -87,7 +87,7 @@ function Home() {
                 </div>
                 <div className='whyUsDiv'>
                     {subArray.map((element, i) => (
-                        <div className='whyUsArrayDiv'>
+                        <div className='whyUsArrayDiv' key={i}>
                             <div className='fa-fa-Div'> <i className={`fa fa-${element.icon} fa-2x hover-fafa`}></i></div>
 
                             <div><h5>{element.heading}</h5></div>
