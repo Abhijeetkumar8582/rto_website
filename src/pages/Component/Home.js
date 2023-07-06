@@ -109,10 +109,11 @@ function Home() {
                         </h5>
                     </div>
                     <div className='UnleashPower_Div_two'>
-                        <img style={{maxWidth:'600px',width:'100%'}} src='unleashPower.webp'/>
+                        <img style={{maxWidth:'420px',width:'100%'}} src='unleashPower.webp'/>
                     </div>
                 </div>
             </div>
+                        
         </>
     )
 }
