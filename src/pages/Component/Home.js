@@ -58,7 +58,7 @@ function Home() {
                     </h5>
                 </div>
                 <div className='Div_containerTwo'>
-                    <img style={{ maxWidth: '600px', width: '100%' }} className='' src='mainImage.webp' />
+                    <img style={{ maxWidth: '600px', width: '100%',mixBlendMode:'darken' }} className='' src='mainImage.webp' />
                 </div>
             </div>
 

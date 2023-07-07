@@ -1,7 +1,16 @@
-import React from 'react'
-import TextField from '@mui/material/TextField';
+import React, { useState, useEffect } from 'react'
+import Aboutus from './Aboutus'
+
 
 function ContactUs() {
+
+    const [submit, setsubmit] = useState(false)
+    useEffect(() => {
+
+    }, [submit])
+    const handleSubmit = () => {
+        setsubmit(true)
+    }
     return (
         <>
             <div className='contactusDiv'>
@@ -25,7 +34,9 @@ function ContactUs() {
                     </div>
                 </div>
                 <div className='contactusDiv_two'>
-                    <div className='contactusDivtwo_Container'>
+                    {submit ? (<div className='form_submittion_message'>
+                        Thank you for submitting the form. We appreciate your interest and will get in touch with you soon. Our team is dedicated to providing excellent service and we look forward to connecting with you shortly.
+                    </div>) : (<div className='contactusDivtwo_Container'>
                         <div className='contactusDivtwo_Container_form'>
                             <h4 >Sign-up for a free demo</h4>
                             <div class="form-group">
@@ -40,9 +51,10 @@ function ContactUs() {
                             <div class="form-group">
                                 <input type="text" id="brand-url" className='formfield' placeholder='Inquire ' required />
                             </div>
-                            <button class="custom-btn btn-15">Submit</button>
+                            <button class="custom-btn btn-15" onClick={handleSubmit} >Submit</button>
                         </div>
-                    </div>
+
+                    </div>)}
                 </div>
             </div>
         </>

@@ -8,16 +8,16 @@ body {
   
   .PrecifyLogo_text {
   font-weight:600;
-  color:#fff
+  color:#000000
   }
   
   .PrecifyLogo_text:hover {
-  color:#fff
+  color:#d29c9c
   }
   
   .nav-link {
   margin:0 15px;
-  color:#fff;
+  color:#080808;
   font-weight:500
   }
   
@@ -26,20 +26,21 @@ body {
   }
   
   .navbar-brand.PrecifyLogo_text.active {
-  color:#fff
+  color:#000000
   }
   
   .nav-link.active {
-  color:#fff
+  color:#000000
   }
   
   .PrecifyLogo_text.active,.navbar-nav .nav-link.active {
-  color:#fff
+  color:#000000
   }
   
   .HomeContainer_div {
   display:flex;
   justify-content:center;
+  background-color: whitesmoke;
   align-items:center;
   height:600px;
   margin-bottom:50px
@@ -123,6 +124,8 @@ body {
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
+  background-color: #a1a4e5;
+  margin-bottom: 20px;
   padding:50px
   }
   
@@ -401,6 +404,13 @@ body {
   
   .footer-menu ul li a:hover {
   color:#27bcda
+  }
+  .form_submittion_message{
+    background-color: #ecb17a;
+    color: black;
+    padding: 50px;
+    border-radius: 20px;
+    font-weight: 400;
   }
   
   @media (max-width: 500px) {
